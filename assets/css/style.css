@@ -52,25 +52,16 @@ img {
     line-height: 1.8;
 }
 
-.box-1 {
-    background-color: #4aaaaf;
-    position: fixed;
-    bottom: 65px;
-    z-index: 2;
-    width: 110%;
-    left: -5%;
-    color: #4aaaaf;
-}
-
 .box-2 {
     text-align: center;
-    padding: 50px;
-    width: 100%;
+    width: 110%;
+    height: 100px;
     color: white;
     background-color: #666666;
     position: fixed;
     bottom: -5%;
     left: -5%;
+    border-top: 8px solid #4aaaaf;
 }
 
 .box-3 {
@@ -91,7 +82,7 @@ img {
     width: 20%;
     color: #777777;
     top: 0;
-    right: 315px;
+    right: 300px;
 }
 
 .box-5 {
@@ -107,7 +98,7 @@ img {
     width: 20%;
     color: #777777;
     top: 0;
-    right: 115px;
+    right: 110px;
 }
 
 .header {
@@ -135,4 +126,20 @@ img {
     border-color: #dddddd;
     overflow: auto;
     line-height: 1.8;
+}
+
+.hl-1 {
+    position: fixed;
+    width: 2px;
+    color: lightgrey;
+    top: 0;
+    right: 622px;
+}
+
+.hl-2 {
+    position: fixed;
+    width: 2px;
+    color: lightgrey;
+    top: 0;
+    right: 515px;
 }
